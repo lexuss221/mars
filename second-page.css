@@ -124,18 +124,22 @@ transform: translate3d(-59px, 120%, 0em);
     background: linear-gradient(#293145, #222837);
 }
 
+blockquote{
+    quotes: "<<" ">>";
+}
+
 .quote::before{
-    content: "<<";
+    content: open-quote;
 }
 
 .quote::after{
-    content: ">>";
+    content: close-quote;
 }
 
 .flying-quotes1{
-    background: url(img/section-3-bg.svg) no-repeat;
+    background: url(img/bg112.svg) no-repeat;
     background-size: 100%;
-    background-position: 0 700px;
+    background-position: 0 550px;
     
 }
 
@@ -186,6 +190,7 @@ opacity: 100%;
     padding-left: 117px;
     padding-top: 110px;
     padding-right: 138px;
+    overflow: hidden;
 }
 
 .quote{
@@ -193,8 +198,6 @@ opacity: 100%;
 font-weight: 500;
 font-size: 30px;
 line-height: 50px;
-display: flex;
-align-items: center;
 padding-bottom: 50px;
 color: #FFFFFF;
 
