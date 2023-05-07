@@ -214,3 +214,112 @@ text-align: right;
 color: #FD9B40;
 
 }
+
+.registration{
+    background: #FFB762;
+    overflow: auto;
+}
+
+.registration-title{
+    background: #202535;
+    font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 99px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+height: 54px;
+margin: auto;
+padding-top: 65px;
+padding-bottom: 65px;
+padding-right: 332px;
+padding-left: 332px;
+
+}
+
+form{
+    margin-top: 500px;
+    background: #353F5A;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 285px;
+}
+
+main{
+    background: #FFB762;
+}
+
+.registration-input{
+    margin-top: 117px;
+    margin-bottom: -64px;
+    width: 1004;
+    height: 63px;
+    margin-left: 155px;
+    margin-right: 155px;
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 50px;
+padding-left: 9px;
+background: #303854;
+box-shadow: 0 3px #202535;
+cursor: pointer;
+color: #7A7A7A;
+}
+
+.registration-input:hover{
+    border: 2px solid #FD9B40;
+}
+
+.registration-checkbox{
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 114px;
+   margin-bottom: 50px;
+width: 60px;
+height: 60px;
+cursor: pointer;
+background: #FFFFFF;
+border: 2px solid #202535;
+
+}
+
+.registration-link{
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+margin: auto;
+color: #FFFFFF;
+margin-bottom: 164px;
+}
+
+.registration-button{
+    background: #4B5A82;
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 50px;
+width: 526px;
+height: 115px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin: auto;
+padding-left: 172px;
+margin-bottom: 131px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.registration-button:hover{
+    transform: scale(1.1);
+}
