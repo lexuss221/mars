@@ -78,41 +78,52 @@ margin-right: 125px;
     margin-bottom: 270px;
     transition: 0.3s;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 
 .join-cards-text{
     font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 50px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-transform: translate3d(100px, 106%, 0em);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .join-cards-details{
     font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 50px;
-display: flex;
-align-items: center;
-text-align: right;
-
-color: #FD9B40;
-transform: translate3d(-59px, 120%, 0em);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;    
+    text-align: right;
+    color: #FD9B40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .join-cards-img{
-    width: 192px;
+    width: 192px;   
     height: 222px;
-    transform: translate3d(87px, 21%, 0em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
 }
 
 .join-cards:hover{
@@ -348,8 +359,6 @@ transition: 0.3s;
         margin-bottom: 130px;
     }
     .join-us-text{
-        font-style: normal;
-        font-weight: 500;
         font-size: 40px;
         line-height: 50px;
         margin-right: 0 ;
@@ -366,22 +375,71 @@ transition: 0.3s;
         margin-bottom: 100px;
         transition: 0.3s;
         cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
     .join-cards-img{
         width: 90px;
         height: 110px;
-        transform: none;
         
     }
     .join-cards-text{
-        transform: none;
+        font-size: 25px;
+        line-height: 40px;
     }
 
     .join-cards-details{
-        transform: none;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .flying-about{
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 415px;
+        margin-left: -30px;
+    }
+
+    .button{
+        font-size: 40px;
+        line-height: 79px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-left: -5px;
+    }
+
+    .flying-quotes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 350px;
+    }
+
+    .quote{
+        font-size: 20px;
+        line-height: 40px;
+        padding-bottom: 30px;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .name{
+        font-size: 20px;
+        line-height: 40px;
+        padding-bottom: 80px;
+        text-align: center;
+        align-items: center;
+        width: 211px;
+        margin-left: 20px;
+    }
+
+    .flying-quotes1{
+        background-position: 0 1070px;
     }
 }
