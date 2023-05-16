@@ -442,4 +442,44 @@ transition: 0.3s;
     .flying-quotes1{
         background-position: 0 1070px;
     }
+
+    .registration-title{
+        font-size: 30px;
+        line-height: 59px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .registration-input{
+        margin-top: 100px;
+        margin-bottom: -47px;
+        width: 332px;
+        height: 40px;
+        margin-left: 10px;
+        margin-right: 155px;
+        font-size: 17px;
+        line-height: 40px;
+    }
+
+    .registration-checkbox{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .registration-link{
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .registration-button{
+        font-size: 20px;
+        line-height: 40px;
+        width: 226px;
+        height: 90px;
+        padding-left: 55px;
+        margin-bottom: 100px;
+    }
 }
